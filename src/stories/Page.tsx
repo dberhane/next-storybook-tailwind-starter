@@ -1,7 +1,7 @@
 import React from 'react';
 
 import { Header } from './Header';
-import './page.css';
+
 
 type User = {
   name: string;
@@ -19,8 +19,8 @@ export const Page: React.VFC = () => {
         onCreateAccount={() => setUser({ name: 'Jane Doe' })}
       />
 
-      <section>
-        <h2>Pages in Storybook</h2>
+      <section className='p-10'>
+        <h2 className='text-3xl font-bold text-blue-700 pb-5'>Pages in Storybook</h2>
         <p>
           We recommend building UIs with a{' '}
           <a href="https://componentdriven.org" target="_blank" rel="noopener noreferrer">
