@@ -1,5 +1,17 @@
 This is a [Next.js 13](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) and integrated to Storybook.js and TailwindCSS
 
+# Clone this repo and install
+
+```bash
+git clone git@github.com:dberhane/next-storybook-tailwind-starter.git my-next-app
+cd my-next-app
+npm i
+# or
+yarn
+# or
+pnpm
+```
+
 ## Getting Started with Next.js
 
 First, run the Next.js development server:
